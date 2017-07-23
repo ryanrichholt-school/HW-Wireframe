@@ -1,0 +1,46 @@
+body {
+	width: 1024px;
+	background-color: #777777;
+	margin: 0px auto;
+	padding: 0px;
+	font-size: 18px;
+	font-family: Georgia;
+	text-align: center;
+}
+
+p {
+	padding: 30px;
+}
+
+.container {
+	display: block;
+	clear: both;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+.container-60 {
+	float: left;
+	clear: none;
+	width: 60%;
+}
+
+.container-40 {
+	float: left;
+	clear: none;
+	width: 40%;
+}
+
+.panel {
+	color: #777777;
+	margin: 10px;
+	padding: 5px;
+	background-color: gainsboro;
+}
+
+.panel-inverted {
+	color: gainsboro;
+	background-color: #777777;
+}
